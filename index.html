@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Template • TodoMVC</title>
+		<link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+		<!-- CSS overrides - remove if you don't need it -->
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+
+		<div id="app"></div>
+		<!-- Scripts here. Don't remove ↓ -->
+		<script src="node_modules/@babel/standalone/babel.js"></script>
+
+		<script src="node_modules/react/umd/react.development.js"></script>
+		<script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+		<!-- 根组件 -->
+		<!-- 
+			如果 type="text/babel" 并且使用 src 引用的外链资源，则需要通过 http 服务来访问
+		 -->
+		<script type="text/babel" src="component/app.js"></script>
+		<script type="text/babel" src="main.js"></script>
+	</body>
+</html>
